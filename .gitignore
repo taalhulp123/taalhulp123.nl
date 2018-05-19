@@ -1,5 +1,5 @@
 .htaccess
-/config.php
+config.php
 admin/config.php
 
 !index.html
@@ -10,7 +10,7 @@ image/cache/
 system/cache/
 system/logs/
 
-system/storage/
+# system/storage/  # MOVED OUTSIDE WWW ROOT
 
 # vQmod log files
 vqmod/logs/*
